@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index,follow" />
+  <meta name="description" content="Privacy Policy for the Astropredict AI astrology app — what we collect, how camera and photo permissions are used, and how third-party AI providers handle your data." />
+  <meta property="og:title" content="Astropredict — Privacy Policy" />
+  <meta property="og:description" content="Privacy Policy for the Astropredict AI astrology app." />
+  <meta property="og:type" content="website" />
+  <title>Astropredict — Privacy Policy</title>
+
+  <style>
+    :root {
+      --bg-1: #0b0820;
+      --bg-2: #1a1240;
+      --text: #e9e6ff;
+      --text-muted: #a39ec7;
+      --primary: #b794ff;
+      --accent: #ffd166;
+      --card: rgba(255, 255, 255, 0.04);
+      --border: rgba(255, 255, 255, 0.08);
+      --max-width: 760px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg-1);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body {
+      background:
+        radial-gradient(ellipse at top, var(--bg-2) 0%, var(--bg-1) 60%),
+        var(--bg-1);
+      min-height: 100vh;
+    }
+
+    .stars {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background-image:
+        radial-gradient(2px 2px at 20% 30%, rgba(255,255,255,0.6), transparent),
+        radial-gradient(1px 1px at 80% 60%, rgba(255,255,255,0.5), transparent),
+        radial-gradient(1px 1px at 40% 80%, rgba(255,255,255,0.4), transparent),
+        radial-gradient(2px 2px at 65% 20%, rgba(255,209,102,0.5), transparent),
+        radial-gradient(1px 1px at 10% 70%, rgba(183,148,255,0.6), transparent);
+      opacity: 0.55;
+      z-index: 0;
+    }
+
+    main {
+      position: relative;
+      z-index: 1;
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 22px;
+      margin-bottom: 28px;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--accent);
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      font-size: 0.82rem;
+    }
+
+    .brand::before {
+      content: "✦";
+      font-size: 1rem;
+    }
+
+    h1 {
+      font-size: 2.1rem;
+      margin: 12px 0 6px;
+      line-height: 1.2;
+    }
+
+    .updated {
+      color: var(--text-muted);
+      margin: 0;
+      font-size: 0.88rem;
+    }
+
+    h2 {
+      margin: 32px 0 10px;
+      font-size: 1.18rem;
+      color: var(--primary);
+      font-weight: 600;
+    }
+
+    p {
+      margin: 0 0 12px;
+      color: var(--text);
+      font-size: 1rem;
+    }
+
+    ul {
+      margin: 0 0 14px;
+      padding-left: 22px;
+    }
+
+    li {
+      margin: 0 0 8px;
+      color: var(--text);
+    }
+
+    li::marker { color: var(--accent); }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(255, 209, 102, 0.35);
+      transition: border-color 0.2s ease;
+    }
+
+    a:hover { border-bottom-color: var(--accent); }
+
+    em { color: var(--text-muted); font-style: normal; }
+    strong { color: var(--text); }
+
+    footer {
+      margin-top: 48px;
+      padding-top: 22px;
+      border-top: 1px solid var(--border);
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      text-align: center;
+    }
+
+    @media (max-width: 540px) {
+      main { padding: 32px 18px 60px; }
+      h1 { font-size: 1.7rem; }
+      h2 { font-size: 1.08rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="stars" aria-hidden="true"></div>
+
+  <main>
+    <header>
+      <span class="brand">Astropredict</span>
+      <h1>Privacy Policy</h1>
+      <p class="updated">Last updated: May 13, 2026</p>
+    </header>
+
+    <section>
+      <h2>Overview</h2>
+      <p>
+        Astropredict is a frontend-only mobile app. We do not operate a server,
+        an account system, or a database that retains your personal data. Most
+        information you provide stays on your device. Only the data necessary
+        to generate a reading is sent to a third-party AI provider at the
+        moment you request it.
+      </p>
+
+      <h2>What we collect and store on your device</h2>
+      <p>
+        The following is stored <strong>locally on your device</strong> using
+        Capacitor Preferences. It never reaches our servers because we do not
+        have any:
+      </p>
+      <ul>
+        <li>Your name, date of birth, time of birth, and birth place (used to compute your zodiac sign and personalize readings).</li>
+        <li>Your western and Vedic zodiac signs.</li>
+        <li>Saved chat conversations with the AI.</li>
+        <li>Saved reports (Kundli, compatibility, numerology, palm reading).</li>
+        <li>App preferences (theme, language, notification settings).</li>
+        <li>Cached daily horoscopes (up to 12 hours).</li>
+      </ul>
+
+      <h2>Camera and photo access (Palm Reading)</h2>
+      <p>
+        The Palm Reading feature requires access to your device camera and / or
+        photo gallery so you can capture or select a picture of your palm.
+      </p>
+      <ul>
+        <li>
+          <strong>Camera permission</strong> is used <em>only</em> when you tap
+          "Take Photo" inside the Palm Reading screen. The camera is never
+          opened in the background.
+        </li>
+        <li>
+          <strong>Photos / media permission</strong> is used <em>only</em> when
+          you choose to upload an existing palm picture from your gallery.
+        </li>
+        <li>
+          The captured or selected image is held in memory on your device and
+          sent <strong>once</strong>, as part of your palm reading request, to
+          the AI provider (see "What leaves your device" below). We do not
+          upload it to our own servers — we do not have any.
+        </li>
+        <li>
+          The image is <strong>not</strong> saved to your gallery, not stored
+          permanently inside the app, and is discarded from memory as soon as
+          you leave the screen or reset the reading.
+        </li>
+        <li>
+          You can revoke camera or photo permission at any time from your
+          device's Settings → Apps → Astropredict → Permissions. The Palm
+          Reading feature will stop working until permission is granted again,
+          but the rest of the app will continue to work.
+        </li>
+      </ul>
+
+      <h2>What leaves your device</h2>
+      <p>
+        When you ask the AI a question, generate a horoscope, request a Kundli
+        / compatibility / numerology / palm reading, the relevant prompt — and
+        for palm reading, the palm image you provided — is sent to a
+        third-party AI provider so it can produce a reply. The providers we
+        use are:
+      </p>
+      <ul>
+        <li><a href="https://openrouter.ai/privacy" target="_blank" rel="noopener">OpenRouter</a></li>
+        <li><a href="https://groq.com/privacy-policy/" target="_blank" rel="noopener">Groq</a></li>
+        <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Gemini</a></li>
+      </ul>
+      <p>
+        The app falls back automatically between these providers if one fails.
+        Each provider operates under its own privacy policy and data handling
+        practices. We do not attach a persistent user ID, email, phone number,
+        or device identifier to those requests.
+      </p>
+
+      <h2>Advertising</h2>
+      <p>
+        Astropredict shows ads via Google AdMob to keep the app free. AdMob
+        may collect anonymous device-level signals (advertising ID, coarse
+        location derived from IP, device type) to serve relevant ads, measure
+        ad performance, and prevent fraud. We use three ad formats:
+      </p>
+      <ul>
+        <li><strong>Banner ads</strong> — shown at the bottom of some screens.</li>
+        <li><strong>Interstitial ads</strong> — shown occasionally between actions, rate-limited so you don't see them too often.</li>
+        <li><strong>Rewarded ads</strong> — only shown when you choose to watch one in exchange for unlocking a reading.</li>
+      </ul>
+      <p>
+        You can reset your advertising ID or opt out of ad personalization from
+        your device's Google settings. See Google's policy at
+        <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.
+      </p>
+
+      <h2>Permissions summary</h2>
+      <ul>
+        <li><strong>Internet</strong> — required to talk to AI providers, fetch ads, and update horoscopes.</li>
+        <li><strong>Camera</strong> — only for capturing a palm photo on demand.</li>
+        <li><strong>Photos / Media</strong> — only for selecting an existing palm photo on demand.</li>
+      </ul>
+      <p>
+        We do not request access to your location, contacts, microphone,
+        calendar, SMS, call logs, or files outside of the photo you choose.
+      </p>
+
+      <h2>Children</h2>
+      <p>
+        Astropredict is not directed at children under 13 (or the equivalent
+        minimum age in your country). Please do not use the app if you are
+        under that age. We do not knowingly collect data from children.
+      </p>
+
+      <h2>Data retention and deletion</h2>
+      <p>
+        Because all your personal data lives on your device, you control it
+        fully. You can:
+      </p>
+      <ul>
+        <li>Delete any saved chat or report individually.</li>
+        <li>Clear the horoscope cache from <em>Settings → Storage</em>.</li>
+        <li>Fully reset the app from <em>Settings → Storage → Reset App</em>.</li>
+        <li>Uninstall the app, which permanently removes all locally stored data.</li>
+      </ul>
+
+      <h2>Security</h2>
+      <p>
+        All network traffic from the app uses HTTPS. Because we do not store
+        your data on a server, there is no central database that could be
+        breached. Data sent to AI providers is protected in transit by their
+        respective TLS-secured APIs.
+      </p>
+
+      <h2>Changes to this policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time, for example when
+        we add new features or new third-party services. The "Last updated"
+        date at the top of this page reflects the most recent change.
+        Continued use of the app after an update constitutes acceptance of the
+        revised policy.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        Questions, concerns, or data requests? Email
+        <a href="mailto:astropredictai@gmail.com">astropredictai&#64;gmail.com</a>.
+      </p>
+    </section>
+
+    <footer>
+      © 2026 Astropredict. All rights reserved.
+    </footer>
+  </main>
+</body>
+</html>
